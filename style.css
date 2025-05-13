@@ -1,0 +1,164 @@
+/* Import czcionek */
+@import url('https://fonts.googleapis.com/css2?family=The+Seasons&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ahsing&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MV+Boli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'MV Boli', serif;
+  background-color: #f7fff7;
+  color: #2f4f2f;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #e6f5e6;
+  padding: 3rem 2rem 2rem 2rem;
+  text-align: center;
+  position: relative;
+}
+
+header h1 {
+  font-family: 'Reem Kufi', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0;
+  color: #4a7a4a;
+}
+
+/* Logo w nagłówku */
+header .logo {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  width: 150px;
+  height: auto;
+}
+
+section {
+  padding: 2rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  font-family: 'MV Boli', serif;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.menu-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.menu-card {
+  flex: 1 1 20px;
+  max-width: 220px;
+  border: 1px solid #c2dec2;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  transition: transform 0.3s ease;
+}
+
+.menu-card img {
+  width: 100%;
+  display: block;
+}
+
+.menu-card:hover {
+  transform: scale(1.03);
+}
+
+.menu-card p {
+  padding: 0.5rem;
+  font-size: 0.95rem;
+  color: #2f4f2f;
+}
+
+/* Aplikacja */
+.app-preview {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.app-preview img {
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.app-preview .description {
+  max-width: 400px;
+  font-size: 1rem;
+  color: #2f4f2f;
+}
+
+/* Kontakt i mapa z jednym tłem */
+.contact-area {
+  background-color: #e6f5e6;
+  padding: 2rem 2rem;
+}
+
+.contact {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  margin: 0.5rem 0;
+}
+
+.contact a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Mapa */
+.map-container {
+  text-align: center;
+  margin: auto;
+}
+
+.map-container iframe {
+  border: none;
+  width: 90%;
+  max-width: 600px;
+  height: 300px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Pasek dolny */
+footer {
+  background-color: #2f4f2f;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  border-top: 8px solid #5ac85a;
+}
