@@ -93,8 +93,8 @@ p {
 }
 
 .menu-card {
-  flex: 1 1 20px;
-  max-width: 220px;
+  max-width: 180px; /* from 220px */
+  flex: 1 1 160px;   /* shrink base width */
   border: 1px solid #c2dec2;
   border-radius: 8px;
   overflow: hidden;
