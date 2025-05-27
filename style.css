@@ -88,8 +88,8 @@ p {
 .menu-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 1rem;
+  justify-content: space-evenly;
+  gap: 0.5rem;
 }
 
 .menu-card {
@@ -112,8 +112,8 @@ p {
 }
 
 .menu-card p {
-  padding: 0.5rem;
-  font-size: 0.95rem;
+  padding: 0.4rem;
+  font-size: 0.85rem;
   color: #2f4f2f;
 }
 
